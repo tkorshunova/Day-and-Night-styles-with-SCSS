@@ -1,0 +1,238 @@
+.landing-logo, footer .footer-wrap .footer_logo {
+  display: flex;
+  align-items: center;
+  width: 130px;
+}
+.landing-logo img, footer .footer-wrap .footer_logo img {
+  width: 42px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.landing-logo p, footer .footer-wrap .footer_logo p {
+  font-family: "Fresca", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0.8;
+  overflow-wrap: break-word;
+  width: 70px;
+}
+.landing-logo p span, footer .footer-wrap .footer_logo p span {
+  font-family: "Fresca", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+.header_text {
+  font-size: 16px;
+}
+
+.section_card_text {
+  font-size: 16px;
+}
+
+.section_banner_text {
+  font-size: 15px;
+}
+
+.footer_text {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url(../img/m-h-night.jpg) no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  padding: 15px 190px 100px;
+  border-radius: 0 0 30em 0/15em 4em;
+}
+.header .header-wrap {
+  width: 45%;
+}
+.header .header-wrap .landing-logo, .header .header-wrap footer .footer-wrap .footer_logo, footer .footer-wrap .header .header-wrap .footer_logo {
+  color: #fff;
+}
+.header .header-wrap .header_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  font-size: 4.5em;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+.header .header-wrap .header_heading::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  display: block;
+  width: 310px;
+  height: 50px;
+  background: #ff4e33;
+  z-index: -1;
+}
+.header .header-wrap .header_text {
+  font-family: "Fresca", sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 65px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 5px;
+}
+.header .header-wrap .login {
+  font-family: "Fresca", sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 150px;
+}
+
+button {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 17px 43px;
+  background: #e3ac00;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+}
+
+body {
+  background: #21232e;
+}
+
+main {
+  max-width: 1198px;
+  margin: 0 auto;
+  padding-bottom: 170px;
+  position: relative;
+}
+main .section_text {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+main .section_text::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 602px;
+  display: block;
+  width: 151px;
+  height: 50px;
+  background: #ff4e33;
+  z-index: -1;
+}
+main .section_card_wrap {
+  max-width: 1118px;
+  margin: 0 auto;
+}
+main .section_card_wrap .section_card {
+  border-radius: 5px;
+  background: #3b3f50;
+  margin-bottom: 25px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+main .section_card_wrap .section_card img {
+  border-radius: 5px;
+  width: 460px;
+}
+main .section_card_wrap .section_card .section_card_right_container {
+  width: 475px;
+  padding: 55px 75px;
+}
+main .section_card_wrap .section_card .section_card_right_container .section_card_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+main .section_card_wrap .section_card .section_card_right_container .section_card_text {
+  font-family: "Fresca", sans-serif;
+  color: #c0c3ce;
+  line-height: 1.5;
+}
+main .section_card_wrap .section_card .section_card_right_container .section_link {
+  font-family: "Fresca", sans-serif;
+  display: block;
+  color: #c0c3ce;
+  text-align: center;
+}
+main .section_banner {
+  position: absolute;
+  bottom: -55px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(65deg, #e2ab02, #922c53);
+  border-radius: 5px;
+}
+main .section_banner .section_banner_text_wrap {
+  margin: 15px 350px 45px 130px;
+}
+main .section_banner .section_banner_text_wrap .section_banner_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+main .section_banner .section_banner_text_wrap .section_banner_heading::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 95px;
+  display: block;
+  width: 54px;
+  height: 50px;
+  background: #ff4e33;
+  z-index: -1;
+}
+main .section_banner .section_banner_text_wrap .section_banner_text {
+  font-family: "Fresca", sans-serif;
+  color: #bdc2ce;
+}
+
+footer {
+  background: #3b3f50;
+  margin-top: -20px;
+}
+footer .footer-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 125px;
+  padding-bottom: 55px;
+}
+footer .footer-wrap .footer_logo {
+  color: #d1d1d1;
+}
+footer .footer-wrap .footer_text {
+  width: 18%;
+  font-family: "Fresca", sans-serif;
+  line-height: 1.5;
+  color: #c0c3ce;
+}
+footer .footer-wrap .footer-cr {
+  font-family: "Fresca", sans-serif;
+  color: #c0c3ce;
+}
